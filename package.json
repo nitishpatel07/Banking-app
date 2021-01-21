@@ -1,0 +1,18 @@
+{
+  "name": "guees-game",
+  "version": "1.0.0",
+  "description": "guess game",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Nitish",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.540"
+  }
+}
